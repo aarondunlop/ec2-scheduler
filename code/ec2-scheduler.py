@@ -136,7 +136,6 @@ def lambda_handler(event, context):
                                     startTime = defaultStartTime
                                 else:
                                     startTime = ptag[0]
-                                    stopTime = ptag[0]
                             if len(ptag) >= 2:
                                 stopTime = ptag[1]
                             if len(ptag) >= 3:
